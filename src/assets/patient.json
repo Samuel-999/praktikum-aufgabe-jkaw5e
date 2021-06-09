@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "firstName": "Ezekiel",
+    "lastName": "Galadirel",
+    "administrationDate": "2020-01-01",
+    "birthday": "1986-07-02",
+    "age": "33",
+    "hospital": "AKW",
+    "station": "Complex-C"
+  },
+  {
+    "id": "2",
+    "firstName": "Johnson",
+    "lastName": "Hunter",
+    "administrationDate": "2020-02-01",
+    "birthday": "1956-07-02",
+    "age": "65",
+    "hospital": "AKW",
+    "station": "Complex-A"
+  },
+  {
+    "id": "3",
+    "firstName": "Finch",
+    "lastName": "Rathenau",
+    "administrationDate": "2020-01-07",
+    "birthday": "1962-07-02",
+    "age": "58",
+    "hospital": "AKW",
+    "station": "Complex-C2"
+  }
+]
