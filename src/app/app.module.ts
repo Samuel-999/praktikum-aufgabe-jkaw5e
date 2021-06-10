@@ -8,6 +8,7 @@ import { PatientmockService, PatientListService } from './patientmock.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FalleigenschaftenComponent } from './falleigenschaften/falleigenschaften.component';
 
+
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule],
   declarations: [AppComponent, HelloComponent, FalleigenschaftenComponent],
