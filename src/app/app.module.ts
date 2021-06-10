@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { PatientmockService, PatientListService } from './patientmock.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FalleigenschaftenComponent } from './falleigenschaften/falleigenschaften.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, HttpClientModule],
+  imports: [BrowserModule, FormsModule, HttpClientModule, FontAwesomeModule],
   declarations: [AppComponent, HelloComponent, FalleigenschaftenComponent],
   bootstrap: [AppComponent],
   providers: [{ provide: PatientListService, useClass: PatientmockService }]
