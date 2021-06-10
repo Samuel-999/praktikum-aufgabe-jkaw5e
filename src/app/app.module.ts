@@ -8,7 +8,9 @@ import { PatientmockService, PatientListService } from './patientmock.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FalleigenschaftenComponent } from './falleigenschaften/falleigenschaften.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
+library.add()
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, FontAwesomeModule],
