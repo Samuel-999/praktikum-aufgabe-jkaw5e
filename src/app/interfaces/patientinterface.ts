@@ -9,4 +9,8 @@ export interface Patients{
   station: string;
   room: string;
   bed: number;
+  gender: string;
+  admission: string;
+  caseNumber: number;
+  discharge: string;
 }

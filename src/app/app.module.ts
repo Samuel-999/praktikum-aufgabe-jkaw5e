@@ -12,13 +12,14 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faWrench } from '@fortawesome/free-solid-svg-icons/faWrench';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons/faCoffee';
 import { PatientenComponent } from './patienten/patienten.component';
+import { PatientenDetailsComponent } from './patienten-details/patienten-details.component';
 
 library.add(faWrench);
 library.add(faCoffee);
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, FontAwesomeModule],
-  declarations: [AppComponent, HelloComponent, FalleigenschaftenComponent, PatientenComponent],
+  declarations: [AppComponent, HelloComponent, FalleigenschaftenComponent, PatientenComponent, PatientenDetailsComponent],
   bootstrap: [AppComponent],
   providers: [{ provide: PatientListService, useClass: PatientmockService }]
 })
