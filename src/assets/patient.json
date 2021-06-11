@@ -7,7 +7,9 @@
     "birthday": "1986-07-02",
     "age": "33",
     "hospital": "AKW",
-    "station": "Complex-C"
+    "station": "Complex-C",
+    "caseNumber": "15cR",
+    ""
   },
   {
     "id": "2",
