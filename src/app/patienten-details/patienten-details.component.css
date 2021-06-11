@@ -1,0 +1,45 @@
+#id{
+  padding-left: 15px;
+  padding-right: 6px;
+  padding-bottom: 17px;
+}
+#id2{
+  padding-right: 15px;
+  padding-bottom: 17px;
+}
+table{
+  border: 3px solid #b70f0a;
+  border-collapse: collapse;
+  border-spacing: 130px;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+td{
+  border: 3px solid #b70f0a;
+  border-collapse: collapse;
+  border-spacing: 130px;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#more{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+#active, #more:hover {
+  background-color: #ccc;
+}
+#normal{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
