@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Patients } from '../interfaces/patientinterface';
+import { PatientListService } from '../patientmock.service';
+
 
 @Component({
   selector: 'app-patienten-module',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PatientenModuleComponent implements OnInit {
 
-  constructor() { }
+  patientData: Patients;
+
+
+  constructor(private patientservice: PatientListService) {
+    patientservice.getPatientInfo("1").subscribe(result => {this.patientData = result})
+  }
 
   ngOnInit() {
   }
-
 }
