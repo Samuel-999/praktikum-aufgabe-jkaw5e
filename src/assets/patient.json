@@ -7,7 +7,10 @@
     "birthday": "1986-07-02",
     "age": "33",
     "hospital": "AKW",
-    "station": "Complex-C"
+    "station": "Complex-C",
+    "sex": "male",
+    "caseNumber": "201234",
+    "admission": "20-20-2021",
   },
   {
     "id": "2",

@@ -1,0 +1,32 @@
+table{
+  border: 3px solid #b70f0a;
+  border-collapse: collapse;
+  border-spacing: 130px;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+td{
+  border: 3px solid #b70f0a;
+  border-collapse: collapse;
+  border-spacing: 130px;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#id,#id3{
+  padding-left: 15px;
+  padding-right: 6px;
+  padding-bottom: 17px;
+}
+#id2, #id4{
+  padding-right: 15px;
+  padding-bottom: 17px;
+  padding-left: 4px;
+}
+#id3{
+  padding-top: 7px;
+}
+#id4{
+  padding-top: 7px;
+}
